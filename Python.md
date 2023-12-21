@@ -16,3 +16,24 @@ As the official standard for all Python internal libraries, it has become the de
 
 <!-- Project Structure -->
 
+## Code Structure
+
+*** Always import the specific function or class you are using from declarative codes to avoid variables naming collitions ***
+*** All functions should be ordered alphabetically, with private (start with _) functions after public functions. The only exception is main(): ** 
+
+* **__main__.py** Entry script to set up the configurations and inject all dependencies. This is the only script that runs imperative code. All other scripts must include only declarative code (functions declarations, constants declarations, class declarations).
+
+* **src/%MAIN_SCRIPT%.py** Main script should be named after the project. It requires a function called main(): that implements the main logic of the package and receives the injected dependencies from the entry script.
+
+* **src/entities/** This folder contains only modules declaring entity classes.
+
+* **src/interfaces/** This folder contains only modules declaring interfaces.
+
+* **src/modules/** This folder should contain modules mainly declaring tools.
+
+* 
+
+
+
+
+
