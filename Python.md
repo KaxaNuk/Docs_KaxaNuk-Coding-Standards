@@ -42,7 +42,19 @@ In the folder add the following basic strucure (depending on your proyect it cou
 
 * **Config** This folder have the excel file parameters.xlsx to add a user friendly interface to parameterize the logic and create different scenarios, add .gitkeep file
 
- 
+* **Input** If you need to add files with securities trading and fundamental data or any other input for your project this is the place, add .gitkeep
+
+* **Output** Whatever your project produce could be store here, add .gitkeep
+
+ * **\_\.gitignore**
+
+/Config/*
+/Input/*
+/Output/*
+
+!/Config/.gitkeep
+!/Input/.gitkeep
+!/Output/.gitkeep
 
 ## Steps to Create a Function for KaxaNuk's Library
 
