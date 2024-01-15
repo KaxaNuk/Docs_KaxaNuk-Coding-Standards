@@ -49,11 +49,17 @@ In the folder add the following basic strucure (depending on your proyect it cou
  * **\_\.gitignore**
 
 /Config/*
+
 /Input/*
+
 /Output/*
 
+**/__pycache__/*
+
 !/Config/.gitkeep
+
 !/Input/.gitkeep
+
 !/Output/.gitkeep
 
 PROJECT_NAME
