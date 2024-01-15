@@ -66,6 +66,9 @@ src
 
 In GitHub Desktop create a new branch called dev and commit this changes:
 
+![image](https://github.com/KaxaNuk/Docs_KaxaNuk-Coding-Standards/assets/96888291/15a19f0a-28fb-4716-940a-5aece9754cf3)
+
+
 ![image](https://github.com/KaxaNuk/Docs_KaxaNuk-Coding-Standards/assets/96888291/df755cf8-f596-4898-ae68-f8c4a269c7a0)
 
 
