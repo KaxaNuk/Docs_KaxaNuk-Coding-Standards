@@ -36,7 +36,7 @@ In the folder add the following basic strucure (depending on your proyect it cou
 
 * **src/** Folder to save all the code that runs our project and it is not intended to interact with users
 
-* **src/%MAIN_SCRIPT%.py** Main script should be named after the project. It requires a function called main(): that implements the main logic of the package and receives the injected dependencies from the entry script.
+* **src/%PROJECT_NAME%.py** Main script should be named after the project. It requires a function called main(): that implements the main logic of the package and receives the injected dependencies from the entry script.
 
 * **src/modules/** This folder should contain modules mainly declaring tools.
 
@@ -55,6 +55,12 @@ In the folder add the following basic strucure (depending on your proyect it cou
 !/Config/.gitkeep
 !/Input/.gitkeep
 !/Output/.gitkeep
+
+PROJECT_NAME
+![image](https://github.com/KaxaNuk/Docs_KaxaNuk-Coding-Standards/assets/96888291/4728b737-3b5d-4508-a394-2c991f587b8d)
+
+src
+![image](https://github.com/KaxaNuk/Docs_KaxaNuk-Coding-Standards/assets/96888291/ee69d27f-a966-4c41-9639-d0e993920064)
 
 ## Steps to Create a Function for KaxaNuk's Library
 
