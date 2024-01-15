@@ -34,18 +34,22 @@ In the folder add the following basic strucure (depending on your proyect it cou
 
 * **\_\_main__.py** Entry script to set up the configurations and inject all dependencies. This is the only script that runs **imperative code**. All other scripts must include only declarative code (functions declarations, constants declarations, class declarations).
 
-* **src/** Folder to save all the code that runs our  
+* **src/** Folder to save all the code that runs our project and it is not intended to interact with users
 
 * **src/%MAIN_SCRIPT%.py** Main script should be named after the project. It requires a function called main(): that implements the main logic of the package and receives the injected dependencies from the entry script.
+
+* **src/modules/** This folder should contain modules mainly declaring tools.
+
+* **Config** This folder have the excel file parameters.xlsx to add a user friendly interface to parameterize the logic and create different scenarios, add .gitkeep file
+
+ 
+
+## Steps to Create a Function for KaxaNuk's Library
+
+pdm
 
 * **src/entities/** This folder contains only modules declaring entity classes.
 
 * **src/interfaces/** This folder contains only modules declaring interfaces.
-
-* **src/modules/** This folder should contain modules mainly declaring tools.
-
-## Steps to Create a Function for KaxaNuk's Library
-
-
 
 
