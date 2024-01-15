@@ -57,10 +57,17 @@ In the folder add the following basic strucure (depending on your proyect it cou
 !/Output/.gitkeep
 
 PROJECT_NAME
+
 ![image](https://github.com/KaxaNuk/Docs_KaxaNuk-Coding-Standards/assets/96888291/4728b737-3b5d-4508-a394-2c991f587b8d)
 
 src
+
 ![image](https://github.com/KaxaNuk/Docs_KaxaNuk-Coding-Standards/assets/96888291/ee69d27f-a966-4c41-9639-d0e993920064)
+
+In GitHub Desktop create a new branch called dev and commit this changes:
+
+![image](https://github.com/KaxaNuk/Docs_KaxaNuk-Coding-Standards/assets/96888291/df755cf8-f596-4898-ae68-f8c4a269c7a0)
+
 
 ## Steps to Create a Function for KaxaNuk's Library
 
