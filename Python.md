@@ -100,10 +100,30 @@ Para configurar tu entorno y asegurarte de que todas las dependencias necesarias
 6. **Instalar PDM**: Dentro del environment activado, instala PDM utilizando pip con el siguiente comando:
     ```bash
     pip install pdm
-    
+
+change directory 
+cd /d D:\Open Projects\O_Clustering-Rotation
+
+![image](https://github.com/KaxaNuk/Docs_KaxaNuk-Coding-Standards/assets/96888291/03489327-f168-47a6-b227-bb3f0f39eb50)
+
+
+6.a pdm init
+
+![image](https://github.com/KaxaNuk/Docs_KaxaNuk-Coding-Standards/assets/96888291/978fe7f0-f3f9-42cb-850a-d177e4cdef66)
+
+pdm install
+
 7. **Instalar Dependencias con PDM**: Ejecuta pdm install para instalar todas las dependencias del proyecto definidas en el archivo pyproject.toml. Usa el siguiente comando:
     ```bash
     pdm install
+
+conda list
+
+if you want to add a new lbrar then
+
+pdm update
+
+aafter adding to toml the library needed
 
 8. **Abrir Anaconda Navigator**: Finalmente, selecciona el environment alexa, este lo podemos encontrar en la parte izquierda en la seccion de Environments, una vez hecho eso, regresamos a Home e instalamos Spyder, una vez instalado, lo abrimos y cambiamos el directorio de trabajo como lo hemos hecho anteriormente para posteriormente abrir app.py y correrlo.
 
