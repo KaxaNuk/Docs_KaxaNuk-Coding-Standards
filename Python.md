@@ -24,7 +24,7 @@ As the official standard for all Python internal libraries, it has become the de
 
 *** Folders that start with Upper Case could be edited by user, lowe case are the core structure of the package ***
 
-## Steps to Create an Application Code
+## Steps to Create an Strategy Code Strucutre
 
 Create the repository on GitHub and add a README.md
 
