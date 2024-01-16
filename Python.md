@@ -77,6 +77,40 @@ In GitHub Desktop create a new branch called dev and commit this changes:
 
 ![image](https://github.com/KaxaNuk/Docs_KaxaNuk-Coding-Standards/assets/96888291/df755cf8-f596-4898-ae68-f8c4a269c7a0)
 
+## Configuración del Entorno y Dependencias
+
+Para configurar tu entorno y asegurarte de que todas las dependencias necesarias están instaladas, sigue estos pasos:
+
+1. **Descargar Anaconda**: Descarga la versión más reciente de Anaconda desde su [sitio web oficial](https://www.anaconda.com/products/distribution). Asegúrate de elegir la versión que corresponda a tu sistema operativo.
+
+2. **Abrir Anaconda Prompt**: Una vez instalado Anaconda, inicia Anaconda Prompt desde tu menú de inicio.
+
+3. **Crear un Nuevo Environment con Python 3.11**: En Anaconda Prompt, crea un nuevo environment llamado `alexa` con Python 3.11 utilizando el siguiente comando:
+   ```bash
+   conda create --name alexa python=3.11
+
+4. **Activar el Environment**: Activa el environment recién creado con el comando:
+   ```bash
+   conda activate alexa
+   
+5. **Cambiar al Directorio del Repositorio**: Navega al directorio donde está clonado el repositorio utilizando el comando cd. Por ejemplo:    
+    ```bash
+    cd C:\Users\TuUsuario\Documents\C_AGBC-Alexa
+    
+6. **Instalar PDM**: Dentro del environment activado, instala PDM utilizando pip con el siguiente comando:
+    ```bash
+    pip install pdm
+    
+7. **Instalar Dependencias con PDM**: Ejecuta pdm install para instalar todas las dependencias del proyecto definidas en el archivo pyproject.toml. Usa el siguiente comando:
+    ```bash
+    pdm install
+
+8. **Abrir Anaconda Navigator**: Finalmente, selecciona el environment alexa, este lo podemos encontrar en la parte izquierda en la seccion de Environments, una vez hecho eso, regresamos a Home e instalamos Spyder, una vez instalado, lo abrimos y cambiamos el directorio de trabajo como lo hemos hecho anteriormente para posteriormente abrir app.py y correrlo.
+
+Siguiendo estos pasos, tendrás configurado el entorno necesario para trabajar en el proyecto C_AGBC-Alexa Dashboard de manera eficiente y ordenada.
+
+
+
 
 ## Steps to Create a Function for KaxaNuk's Library
 
