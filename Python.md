@@ -111,6 +111,7 @@ cd /d D:\Open Projects\O_Clustering-Rotation
 
 ![image](https://github.com/KaxaNuk/Docs_KaxaNuk-Coding-Standards/assets/96888291/978fe7f0-f3f9-42cb-850a-d177e4cdef66)
 
+pip ugrade
 pdm install
 
 7. **Instalar Dependencias con PDM**: Ejecuta pdm install para instalar todas las dependencias del proyecto definidas en el archivo pyproject.toml. Usa el siguiente comando:
