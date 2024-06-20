@@ -6,13 +6,13 @@ Architecture
 Internal Architecture
 =================================
 
-It will depende on each project, but these are some ideas:
+It depends on each project, but these are some ideas:
 
 ...
 
 External Architecture
 =================================
 
-It will depende on each project, but these are some ideas:
+It depends on each project, but these are some ideas:
 
 ...
